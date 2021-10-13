@@ -244,6 +244,7 @@ only screen and (min-resolution: 1.25dppx){
      background-position: center center;
      content: "";
      display: inline-block;
+     margin-right: 5px;
 }
 
 .list-box-time{
@@ -268,6 +269,7 @@ only screen and (min-resolution: 1.25dppx){
      background-size: contain;
      background-position: center center;
      content: "";
+     margin-right: 5px;
 
 }
 .list-box-views{
