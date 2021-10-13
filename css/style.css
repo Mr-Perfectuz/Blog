@@ -124,7 +124,7 @@ img{
      height: 20px;
      background-color: #1E90FF;
      background-image: url(/photos/Vector.svg);
-     background-size: cover;
+     background-size: contain;
      background-position: center bottom;
      margin-right: 12px;
 }
@@ -236,7 +236,7 @@ only screen and (min-resolution: 1.25dppx){
 .list-box-time::before{
      width: 14px;
      height: 14px;
-     border-image: url(../photos/icon-clock.svg);
+     background-image: url(../photos/icon-clock.svg);
      background-repeat: no-repeat;
      background-size: contain;
      background-position: center center;
@@ -256,7 +256,7 @@ only screen and (min-resolution: 1.25dppx){
 .list-box-views::before{
      width: 14px;
      height: 14px;
-     border-image: url(../photos/icon-viewer.svg);
+     background-image: url(../photos/icon-viewer.svg);
      background-repeat: no-repeat;
      background-size: contain;
      background-position: center center;
