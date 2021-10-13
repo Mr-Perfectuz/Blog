@@ -79,7 +79,7 @@ img{
 }
 
 .content-heading{
-     font-family: Bebas Neue,"Arial", sans-serif;;
+     font-family: Bebas Neue,"Arial", sans-serif;
      padding: 0;
      margin: 0;
      font-style: normal;
@@ -217,6 +217,7 @@ only screen and (min-resolution: 1.25dppx){
 
 .list-box-link{
      text-decoration: none;
+     color: #222222;
 }
 
 .list-box-link:hover{
@@ -231,6 +232,7 @@ only screen and (min-resolution: 1.25dppx){
 .list-box-meta{
      display: flex;
      align-items: center;
+     margin-top: 4px;
 }
 
 .list-box-time::before{
@@ -241,6 +243,7 @@ only screen and (min-resolution: 1.25dppx){
      background-size: contain;
      background-position: center center;
      content: "";
+     display: inline-block;
 }
 
 .list-box-time{
@@ -250,17 +253,22 @@ only screen and (min-resolution: 1.25dppx){
      line-height: 16px;
      font-family: 'Roboto Condensed', sans-serif;
      color: #888888;
+     display: flex;
+     align-items: center;
      margin-right: 24px;
+     position: relative;
 }
 
 .list-box-views::before{
      width: 14px;
      height: 14px;
+     display: inline-block;
      background-image: url(../photos/icon-viewer.svg);
      background-repeat: no-repeat;
      background-size: contain;
      background-position: center center;
      content: "";
+
 }
 .list-box-views{
      font-family: 'Roboto Condensed', sans-serif;
@@ -269,6 +277,9 @@ only screen and (min-resolution: 1.25dppx){
      font-size: 14px;
      line-height: 16px;
      color: #666666;
+     display: flex;
+     align-items: center;
+     /* position:static; */
 }
 
 .further-info{
@@ -283,6 +294,7 @@ only screen and (min-resolution: 1.25dppx){
      border-radius: 4px;
      color: #FFFFFF;
      cursor: pointer;
+     border: none;
 }
 
 .further-info:hover{
